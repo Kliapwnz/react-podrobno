@@ -1,5 +1,10 @@
 import React from 'react';
 
+type ratingPropsType = {
+    selected: boolean
+}
+
+
 export const Rating = () => {
     console.log("Rating rendered")
     return (
@@ -14,11 +19,13 @@ export const Rating = () => {
 }
 
 
+function Star(props: ratingPropsType) {
+    if (props.selected) {
+        return (<span><b>star</b> </span>)
+    } else {
+        return <span>star </span>
+    }
 
-function Star() {
-    console.log("Star rendered")
-    return (
-        <span><b>star</b> </span>
-    )
+
 }
 
