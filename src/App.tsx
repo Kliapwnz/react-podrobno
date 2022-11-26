@@ -29,7 +29,7 @@ function App() {
 }
 
 function PageTitle(props:pageTitlePropsType) {
-    return <div>{props.title}</div>
+    return <h1>{props.title}</h1>
 }
 
 
