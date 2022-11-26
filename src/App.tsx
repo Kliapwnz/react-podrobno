@@ -36,7 +36,7 @@ function Rating() {
 function Star() {
     console.log("Star rendered")
     return (
-        <div>star</div>
+        <span>star </span>
     )
 }
 
