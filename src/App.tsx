@@ -2,26 +2,29 @@ import React from 'react';
 import './App.css';
 
 function App() {
-  return (
-    <div>
-      This is APP component
-    </div>
-  );
+    return (
+        <div>
+            This is APP component
+            <Rating/>
+            <Accordion/>
+        </div>
+    );
 }
 
 function Rating() {
-    return(
+    return (
         <div>
-        <div>star</div>
-        <div>star</div>
-        <div>star</div>
-        <div>star</div>
-        <div>star</div>
+            <div>star</div>
+            <div>star</div>
+            <div>star</div>
+            <div>star</div>
+            <div>star</div>
         </div>
     )
 }
+
 function Accordion() {
-    return(
+    return (
         <div>
             <h3>Menu</h3>
             <ul>
@@ -32,4 +35,5 @@ function Accordion() {
         </div>
     )
 }
+
 export default App;
