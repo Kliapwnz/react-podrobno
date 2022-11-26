@@ -7,7 +7,7 @@ type accordionTitlePropsType={
 export const AccordionTitle = (props:accordionTitlePropsType) => {
     console.log("AccordionTitle rendering")
     return (
-        <h3>{props.title}</h3>
+        <h3>---{props.title}---</h3>
     );
 };
 
