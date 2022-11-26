@@ -7,6 +7,7 @@ function App() {
             This is APP component
             <Rating/>
             <Accordion/>
+            <Rating/>
         </div>
     );
 }
