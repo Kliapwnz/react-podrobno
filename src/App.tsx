@@ -14,11 +14,11 @@ function App() {
 function Rating() {
     return (
         <div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
-            <div>star</div>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
+            <Star/>
         </div>
     )
 }
@@ -33,6 +33,12 @@ function Accordion() {
                 <li>3</li>
             </ul>
         </div>
+    )
+}
+
+function Star() {
+    return (
+        <div>Star</div>
     )
 }
 
