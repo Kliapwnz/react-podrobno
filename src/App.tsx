@@ -34,12 +34,8 @@ function Accordion() {
     console.log("Accordion rendered")
     return (
         <div>
-            <h3>Menu</h3>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-            </ul>
+           <AccordionTitle/>
+           <AccordionBody/>
         </div>
     )
 }
@@ -51,4 +47,18 @@ function Star() {
     )
 }
 
+function AccordionTitle() {
+    return(
+        <h3>Menu</h3>
+    )
+}
+function AccordionBody() {
+    return (<ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+
+    )
+}
 export default App;
