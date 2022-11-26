@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Accordion} from "./Components/Accordion";
+import {Accordion} from "./Components/Accordion/Accordion";
 
 function App() {
     console.log("App rendered")
