@@ -38,7 +38,7 @@ function Accordion() {
 
 function Star() {
     return (
-        <div>Star</div>
+        <div>star</div>
     )
 }
 
