@@ -3,8 +3,8 @@ import './App.css';
 import {Accordion} from "./Components/Accordion/Accordion";
 import {Rating} from "./Components/Rating/Rating";
 
-type pageTitlePropsType={
-    title:string
+type pageTitlePropsType = {
+    title: string
 }
 
 
@@ -29,12 +29,9 @@ function App() {
     );
 }
 
-function PageTitle(props:pageTitlePropsType) {
+function PageTitle(props: pageTitlePropsType) {
     return <h1>{props.title}</h1>
 }
-
-
-
 
 
 export default App;
