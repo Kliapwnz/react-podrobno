@@ -2,11 +2,15 @@ import React from 'react';
 import {AccordionTitle} from "./AccordionTitle/AccordionTitle";
 import {AccordionBody} from "./AccordionBody/AccordionBody";
 
-export const Accordion = () => {
+type accordionPropsType={
+    title: string
+}
+
+export const Accordion = (props:accordionPropsType) => {
     console.log("Accordion rendering")
     return (
         <div>
-            <AccordionTitle/>
+            <AccordionTitle title={props.title}/>
             <AccordionBody/>
         </div>
     );
