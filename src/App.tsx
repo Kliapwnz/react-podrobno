@@ -16,8 +16,8 @@ function App() {
             <PageTitle title={"Manchester City"}/>
             Article1
             <Rating value={2}/>
-            <Accordion title={"Menu"}/>
-            <Accordion title={"Users"}/>
+            <Accordion title={"Menu"} collapsed={true}/>
+            <Accordion title={"Users"} collapsed={false}/>
             Article2
             <Rating value={0}/>
             <Rating value={1}/>
