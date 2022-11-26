@@ -9,17 +9,18 @@ type accordionPropsType = {
 
 export const Accordion = (props: accordionPropsType) => {
     console.log("Accordion rendering")
-    if (props.collapsed){
+    if (props.collapsed) {
         return (
             <div>
                 <AccordionTitle title={props.title}/>
-                <AccordionBody/>
             </div>
-        )}else {
-            return <div>
+        )
+    } else {
+        return <div>
             <AccordionTitle title={props.title}/>
-            </div>
-            }
+            <AccordionBody/>
+        </div>
+    }
 };
 
 
