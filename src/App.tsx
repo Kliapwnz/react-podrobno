@@ -14,6 +14,10 @@ function App() {
     return (
         <div>
             <OnOff/>
+            <OnOff/>
+            <OnOff/>
+            <OnOff/>
+            <OnOff/>
             {/*<OnOff on={false} />*/}
             {/*<OnOff on={true} />*/}
             {/*<PageTitle title={"This is APP component"}/>*/}
