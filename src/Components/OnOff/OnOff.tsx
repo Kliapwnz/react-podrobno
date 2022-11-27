@@ -29,7 +29,7 @@ export const OnOff = (props: PropsType) => {
        border: "1px solid black",
        display: "inline-block",
        marginLeft: "5px",
-       backgroundColor: props.on ? "greenYellow" : "red"
+       backgroundColor: props.on ? "greenYellow" : !props.on ?"red" : "white"
    };
 
 
