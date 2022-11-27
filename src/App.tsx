@@ -15,12 +15,12 @@ function App() {
     return (
         <div className={"App"}>
             <OnOff/>
-            <OnOff/>
-            <OnOff/>
-            <OnOff/>
-            <OnOff/>
+            {/*<OnOff/>*/}
+            {/*<OnOff/>*/}
+            {/*<OnOff/>*/}
+            {/*<OnOff/>*/}
             <UncontrolledAccordion title={"Menu"} />
-            <UncontrolledAccordion title={"Users"} />
+            {/*<UncontrolledAccordion title={"Users"} />*/}
             {/*<OnOff on={false} />*/}
             {/*<OnOff on={true} />*/}
             {/*<PageTitle title={"This is APP component"}/>*/}

@@ -9,11 +9,11 @@ type accordionPropsType = {
 
 export const UncontrolledAccordion = (props: accordionPropsType) => {
     console.log("Accordion rendering")
-    let [control, setControl] =useState( true)
+    let [control, setControl] =useState( false)
 
     return <div>
             <AccordionTitle title={props.title}/>
-        <button onClick={()=> {setControl(false)}}>TOGGLE</button>
+        <button onClick={()=> {setControl(!control)}}>TOGGLE</button>
             {control &&  <AccordionBody/>}
         </div>
 
