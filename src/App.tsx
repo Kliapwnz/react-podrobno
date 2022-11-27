@@ -3,6 +3,7 @@ import './App.css';
 import {Accordion} from "./Components/Accordion/Accordion";
 import {Rating} from "./Components/Rating/Rating";
 import {OnOff} from "./Components/OnOff/OnOff";
+import {UncontrolledAccordion} from "./Components/UncontrolledAccordion/UncontrolledAccordion";
 
 type pageTitlePropsType = {
     title: string
@@ -18,6 +19,8 @@ function App() {
             <OnOff/>
             <OnOff/>
             <OnOff/>
+            <UncontrolledAccordion title={"Menu"} />
+            <UncontrolledAccordion title={"Users"} />
             {/*<OnOff on={false} />*/}
             {/*<OnOff on={true} />*/}
             {/*<PageTitle title={"This is APP component"}/>*/}
