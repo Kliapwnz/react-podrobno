@@ -11,7 +11,7 @@ export const Accordion = (props: accordionPropsType) => {
     console.log("Accordion rendering")
         return <div>
             <AccordionTitle title={props.title}/>
-            {props.collapsed === false &&  <AccordionBody/>}
+            {!props.collapsed &&  <AccordionBody/>}
         </div>
 
 };
