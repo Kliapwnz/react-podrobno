@@ -8,18 +8,21 @@ export const OnOff = (props: PropsType) => {
    const onStyle ={
        width: "30px",
        height: "20px",
-       border: "1px solid black"
+       border: "1px solid black",
+       display: "inline-block"
    };
    const offStyle ={
        width: "30px",
        height: "20px",
-       border: "1px solid black"
+       border: "1px solid black",
+       display: "inline-block"
    };
    const indicatorStyle ={
        width: "10px",
        height: "10px",
        borderRadius: "5px",
-       border: "1px solid black"
+       border: "1px solid black",
+       display: "inline-block"
    };
 
 
