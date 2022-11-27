@@ -5,8 +5,16 @@ type PropsType = {
 }
 
 export const OnOff = (props: PropsType) => {
-   const onStyle ={};
-   const offStyle ={};
+   const onStyle ={
+       width: "30px",
+       height: "20px",
+       border: "1px solid black"
+   };
+   const offStyle ={
+       width: "30px",
+       height: "20px",
+       border: "1px solid black"
+   };
    const indicatorStyle ={
        width: "10px",
        height: "10px",
@@ -18,8 +26,8 @@ export const OnOff = (props: PropsType) => {
 
     return (
         <div>
-            <div>on</div>
-            <div>off</div>
+            <div style={onStyle}>on</div>
+            <div style={offStyle}>off</div>
             <div style={indicatorStyle}></div>
         </div>
     );
