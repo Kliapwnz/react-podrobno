@@ -22,7 +22,8 @@ export const OnOff = (props: PropsType) => {
        height: "10px",
        borderRadius: "5px",
        border: "1px solid black",
-       display: "inline-block"
+       display: "inline-block",
+       marginLeft: "5px"
    };
 
 
