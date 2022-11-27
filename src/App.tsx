@@ -14,6 +14,8 @@ function App() {
     return (
         <div>
             <OnOff on={true} />
+            <OnOff on={false} />
+            <OnOff on={true} />
             {/*<PageTitle title={"This is APP component"}/>*/}
             {/*<PageTitle title={"Manchester City"}/>*/}
             {/*Article1*/}
