@@ -13,7 +13,7 @@ type pageTitlePropsType = {
 function App() {
     console.log("App rendered")
     return (
-        <div>
+        <div className={"App"}>
             <OnOff/>
             <OnOff/>
             <OnOff/>
