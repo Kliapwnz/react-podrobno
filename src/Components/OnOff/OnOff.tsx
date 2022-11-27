@@ -6,9 +6,9 @@ type PropsType = {
 
 
 export const OnOff = (props: PropsType) => {
-    let on = false
 
-    useState(false);
+
+    let [on, setOn] = useState(false);
 
     const onStyle = {
         width: "30px",
@@ -41,11 +41,11 @@ export const OnOff = (props: PropsType) => {
     return (
         <div>
             <div style={onStyle} onClick={() => {
-                on = true
+                setOn(true)
             }}>on
             </div>
             <div style={offStyle} onClick={() => {
-                on = false
+                setOn(false)
             }}>off
             </div>
             <div style={indicatorStyle}></div>
